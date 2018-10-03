@@ -1,0 +1,68 @@
+for loop:
+package corejava;
+
+public class forloop 
+{
+public static void main(String args[])
+{
+	int i,j;
+	for(i=0;i<=5;i++)
+	{
+		for(j=0;j<=i;j++)
+		{
+			System.out.print("*");
+		
+	
+		}
+	   System.out.println("");
+	}
+}
+}
+
+
+output:
+*
+**
+***
+****
+*****
+******
+
+
+while loop:
+
+package corejava;
+
+public class whileloop {
+public static void main(String args[])
+{
+	int i=0;
+	while(i<=10)
+	{
+		System.out.println("values of " + i);
+		i++;
+	}
+}
+}
+
+
+dowhile:
+
+package corejava;
+
+public class dowhile {
+	
+public static void main(String args[])
+{
+	int i=0;
+	do
+	{
+		System.out.println("values of i are "+i);
+		i++;
+	}while(i<=10);
+}
+}
+
+
+
+
